@@ -14,3 +14,8 @@ print(structured_data)
 print("\n2. Understanding Unstructured Data") 
 unstructured_data = """ This is an example of unstructured text. It could also be images, videos, or social media posts. """ 
 print(unstructured_data)
+
+# 4. Data Collection Example 
+print("\n4. Data Collection Example")
+data_collected = pd.DataFrame({ 'Date': pd.date_range(start='2025-01-01', periods=5), 'Temperature (°C)': [22.4, 21.9, 23.1, 22.8, 22.6] }) 
+print(data_collected)
